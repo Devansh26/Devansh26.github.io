@@ -13,6 +13,10 @@ section {
 }
 
 /* Styling for the career storyline timeline */
+#storyline h2{
+    padding-bottom: 0.8em;
+}
+
 .timeline {
     display: flex;
     flex-direction: column;
