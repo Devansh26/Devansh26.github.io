@@ -250,9 +250,10 @@ input[type=checkbox] {
 
 .footer-distributed .footer-company-about {
     color: #8f9296;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: normal;
     margin-bottom: 0;
+    max-width: 450px;
 }
 
 .footer-distributed .footer-company-about span {
