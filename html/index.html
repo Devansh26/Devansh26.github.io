@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>My Blog</title>
 
     <!-- Favicon -->
@@ -25,182 +25,206 @@
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header>
-        <!-- Navigation Bar -->
-        <nav class="navbar">
+<!-- Header Section -->
+<header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
 
-            <!-- Logo -->
-            <a href="index.html">
-                <div class="logo">
-                    <audio autoplay>
-                        <source src="../files/we-are-venom.mp3">
-                    </audio>
-                    <img src="../image/batman-removebg.png" alt="Logo">
+        <!-- Logo -->
+        <a href="index.html">
+            <div class="logo">
+                <audio autoplay>
+                    <source src="../files/we-are-venom.mp3">
+                </audio>
+                <img src="../image/batman-removebg.png" alt="Logo">
+            </div>
+        </a>
+
+        <ul class="nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle"/>
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+            <!-- NAVIGATION MENUS -->
+            <!-- <div class=&rdquo;menu&rdquo;>...</div> -->
+            <div class="menu">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="profiles.html">Profile</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="../files/Devansh_Shah_Resume.pdf" target="_blank">Resume</a></li>
+            </div>
+        </ul>
+    </nav>
+    <!-- Navigation Bar End -->
+</header>
+<!-- Header Section End -->
+
+<section id="home">
+    <div class="background-image">
+        <img src="https://csd1103433.w3spaces.com/img/back.jpg?bypass-cache=26131379" alt="Background Image">
+    </div>
+    <div class="profile-picture">
+        <img src="https://csd1103433.w3spaces.com/img/football.jpg?bypass-cache=26131378" alt="Your Profile Picture">
+        <figcaption>Devansh Shah</figcaption>
+        <figcaption>Full Stack Developer</figcaption>
+    </div>
+</section>
+
+<main>
+
+    <section id="storyline">
+        <h2>Storyline of My Career</h2>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-date">Apr, 2023 - Present</div>
+                <div class="timeline-content">
+                    <h3>Lumber Associate - Home Depot</h3>
+                    <h4>(Part Time)</h4>
+                    <ul>
+                        <li>Assisted customers in selecting and locating lumber products,
+                            providing expert knowledge and guidance on wood species, grades, and sizes.
+                        </li>
+                        <li>Maintained inventory levels by regularly restocking lumber products
+                            and ensuring shelves and displays were well-organized and visually appealing.
+                        </li>
+                        <li>Cut and prepared custom-sized lumber orders according to customer specifications,
+                            utilizing saws and other cutting tools with precision.
+                        </li>
+                        <li>Assisted with the implementation of safety protocols and procedures,
+                            ensuring a safe work environment for both customers and employees.
+                        </li>
+                    </ul>
                 </div>
-            </a>
+            </div>
 
-            <ul class="nav-links">
-                <!-- USING CHECKBOX HACK -->
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-
-                <!-- NAVIGATION MENUS -->
-                <!-- <div class=&rdquo;menu&rdquo;>...</div> -->
-                <div class="menu">
-                    <li><a class="active" href="index.html">Home</a></li>
-                    <li><a href="profiles.html">Profile</a></li>
-                    <li><a href="aboutme.html">About Me</a></li>
-                    <li><a href="../files/Devansh_Shah_Resume.pdf" target="_blank">Resume</a></li>
+            <div class="timeline-item">
+                <div class="timeline-date">Dec, 2021 - Dec, 2022</div>
+                <div class="timeline-content">
+                    <h3>IT Professor - PMGT</h3>
+                    <h4>(Part Time)</h4>
+                    <ul>
+                        <li>Successfully improved student participation in the classroom
+                            through the integration of creative role-playing exercises.
+                        </li>
+                        <li>Helped them to improve their coding skills theoretically and
+                            practically.
+                        </li>
+                        <li>Improved student test scores on IT test by 30% in one-year
+                            period by implementing the new curriculum.
+                        </li>
+                    </ul>
                 </div>
-            </ul>
-        </nav>
-        <!-- Navigation Bar End -->
-    </header>
-    <!-- Header Section End -->
+            </div>
 
-    <section id="home">
-        <div class="background-image">
-            <img src="https://csd1103433.w3spaces.com/img/back.jpg?bypass-cache=26131379" alt="Background Image">
-        </div>
-        <div class="profile-picture">
-            <img src="https://csd1103433.w3spaces.com/img/football.jpg?bypass-cache=26131378" alt="Your Profile Picture">
-            <figcaption>Devansh Shah</figcaption>
-            <figcaption>Full Stack Developer</figcaption>
+            <div class="timeline-item">
+                <div class="timeline-date">June, 2022 - Dec, 2022</div>
+                <div class="timeline-content">
+                    <h3>Full Stack Developer - Transact Box</h3>
+                    <h4>(Full Time)</h4>
+                    <ul>
+                        <li>Developed Full stack applications using the latest industry-adopted
+                            technologies and frameworks.
+                        </li>
+                        <li>Integrated Payment gateway using Java/Spring boot and rest API(2ds
+                            and 3ds integrations).
+                        </li>
+                        <li>Created Restful Web Services using Spring Boot, JPA,Hibernate,
+                            MYSQL, Spring MVC, Spring Data, Rest services and JSON.
+                        </li>
+                        <li>Created test cases using Junit and Mockito.</li>
+                        <li>Developed the latest user-facing features using React js and built
+                            reusable components and front-end libraries for future use.
+                        </li>
+                        <li>Played a key role in the development, improvement, and operation of
+                            web-based software.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">Nov, 2020 - June, 2022</div>
+                <div class="timeline-content">
+                    <h3>Assistant System Engineer - Tata Consultancy Services</h3>
+                    <h4>(Full Time)</h4>
+                    <ul>
+                        <li>Developed Full stack applications using the latest industry-adopted technologies and
+                            frameworks.
+                        </li>
+                        <li>Integrated Payment gateway using Java/Spring boot and rest API(2ds and 3ds integrations).
+                        </li>
+                        <li>Created Restful Web Services using Spring Boot, JPA, Hibernate, MYSQL,
+                            Spring MVC, Spring Data, Rest services and JSON.
+                        </li>
+                        <li>Created test cases using Junit and Mockito.</li>
+                        <li>Developed the latest user-facing features using React js and built reusable
+                            components and front-end libraries for future use.
+                        </li>
+                        <li>Optimized components for maximum performance across a vast array of web-capable
+                            devices and browsers.
+                        </li>
+                        <li>Played a key role in the development, improvement, and
+                            operation of web-based software.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <main>
+</main>
 
-        <section id="storyline">
-            <h2>Storyline of My Career</h2>
-            <div class="timeline">
-
-                <div class="timeline-item">
-                    <div class="timeline-date">Apr, 2023 - Present</div>
-                    <div class="timeline-content">
-                        <h3>Lumber Associate - Home Depot</h3>
-                        <h4>(Part Time)</h4>
-                        <ul>
-                            <li>Assisted customers in selecting and locating lumber products,
-                            providing expert knowledge and guidance on wood species, grades, and sizes.</li>
-                            <li>Maintained inventory levels by regularly restocking lumber products
-                            and ensuring shelves and displays were well-organized and visually appealing.</li>
-                            <li>Cut and prepared custom-sized lumber orders according to customer specifications,
-                            utilizing saws and other cutting tools with precision.</li>
-                            <li>Assisted with the implementation of safety protocols and procedures,
-                            ensuring a safe work environment for both customers and employees.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">Dec, 2021 - Dec, 2022</div>
-                    <div class="timeline-content">
-                        <h3>IT Professor - PMGT</h3>
-                        <h4>(Part Time)</h4>
-                        <ul>
-                            <li>Successfully improved student participation in the classroom
-                            through the integration of creative role-playing exercises.</li>
-                            <li>Helped them to improve their coding skills theoretically and
-                            practically.</li>
-                            <li>Improved student test scores on IT test by 30% in one-year
-                            period by implementing the new curriculum.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">June, 2022 - Dec, 2022</div>
-                    <div class="timeline-content">
-                        <h3>Full Stack Developer - Transact Box</h3>
-                        <h4>(Full Time)</h4>
-                        <ul>
-                            <li>Developed Full stack applications using the latest industry-adopted
-                            technologies and frameworks.</li>
-                            <li>Integrated Payment gateway using Java/Spring boot and rest API(2ds
-                            and 3ds integrations).</li>
-                            <li>Created Restful Web Services using Spring Boot, JPA,Hibernate,
-                            MYSQL, Spring MVC, Spring Data, Rest services and JSON.</li>
-                            <li>Created test cases using Junit and Mockito.</li>
-                            <li>Developed the latest user-facing features using React js and built
-                            reusable components and front-end libraries for future use.</li>
-                            <li>Played a key role in the development, improvement, and operation of
-                            web-based software.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-date">Nov, 2020 - June, 2022</div>
-                    <div class="timeline-content">
-                        <h3>Assistant System Engineer - Tata Consultancy Services</h3>
-                        <h4>(Full Time)</h4>
-                        <ul>
-                            <li>Developed Full stack applications using the latest industry-adopted technologies and frameworks. </li>
-                            <li>Integrated Payment gateway using Java/Spring boot and rest API(2ds and 3ds integrations).</li>
-                            <li>Created Restful Web Services using Spring Boot, JPA, Hibernate, MYSQL,
-                            Spring MVC, Spring Data, Rest services and JSON. </li>
-                            <li>Created test cases using Junit and Mockito. </li>
-                            <li>Developed the latest user-facing features using React js and built reusable
-                            components and front-end libraries for future use.</li>
-                            <li>Optimized components for maximum performance across a vast array of web-capable
-                            devices and browsers.</li>
-                            <li>Played a key role in the development, improvement, and
-                            operation of web-based software.</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer Section -->
-    <footer class="footer-distributed">
-        <div class="footer-left">
-            <h3>DS</h3>
-            <p class="footer-links">
-                <a href="index.html">Home</a>
-                <a href="profiles.html">Profile</a>
-                <a href="aboutme.html">About Me</a>
-            </p>
-            <p class="footer-company-name">© 2023 My Blog</p>
+<!-- Footer Section -->
+<footer class="footer-distributed">
+    <div class="footer-left">
+        <h3>DS</h3>
+        <p class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="profiles.html">Profile</a>
+            <a href="aboutme.html">About Me</a>
+        </p>
+        <p class="footer-company-name">© 2023 My Blog</p>
+    </div>
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>265 Yorklnd Blvd</span> Toronto, Ontario</p>
         </div>
-        <div class="footer-center">
-            <div>
-                <i class="fa fa-map-marker"></i>
-                <p><span>265 Yorklnd Blvd</span> Toronto, Ontario</p>
-            </div>
-            <div>
-                <i class="fa fa-phone"></i>
-                <p><a href="tel:+12268831761">+1 2268831761</a></p>
-            </div>
-            <div>
-                <i class="fa fa-envelope"></i>
-                <p><a href="mailto:info@company.com">devansh981226@gmail.com</a></p>
-            </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p><a href="tel:+12268831761">+1 2268831761</a></p>
         </div>
-        <div class="footer-right">
-            <p class="footer-company-about">
-                <span>About Me</span>
-                A motivated individual with in-depth
-                knowledge of languages and
-                development tools. Seeking a position in
-                a growth-oriented company where I can
-                use my skills to the advantage of the
-                company while having the scope to
-                develop my own skills.
-            </p>
-            <div class="footer-icons">
-                <a href="https://www.facebook.com/profile.php?id=100007079898061" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://instagram.com/devansh981226?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/devansh-shah-89941816a/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:info@company.com">devansh981226@gmail.com</a></p>
         </div>
-    </footer>
-    <!-- Footer Section End -->
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About Me</span>
+            A motivated individual with in-depth
+            knowledge of languages and
+            development tools. Seeking a position in
+            a growth-oriented company where I can
+            use my skills to the advantage of the
+            company while having the scope to
+            develop my own skills.
+        </p>
+        <div class="footer-icons">
+            <a href="https://www.facebook.com/profile.php?id=100007079898061" target="_blank"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/devansh981226?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/devansh-shah-89941816a/" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Devansh26/" target="_blank"><i
+                    class="fab fa-github"></i></a>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
 
 </body>
 </html>
